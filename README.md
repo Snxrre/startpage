@@ -2,7 +2,7 @@
 
 [Live Preview](https://kencx.github.io/startpage/)
 
-Feel free to fork and make your own changes!
+My personal fork of kencx's startpage!
 
 - Font: Fira Code
 - Colorscheme: Gruvbox Dark
