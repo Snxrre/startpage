@@ -123,3 +123,7 @@ input[type="search"] {
 form:p {
   display: inline;
 }
+
+.inline {
+  display: inline;
+}
