@@ -119,4 +119,7 @@ input[type="search"] {
   color: red;
 
 }
-  
+ 
+form:p {
+  display: inline;
+}
