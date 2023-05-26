@@ -16,27 +16,27 @@
     </div>
 
     <div class="right-container">
-      <div class="head"> 
-          <span style="float: right;">> cd ~/</span>
-          
-          eee<form style="float: right;" id="form" role="search">
+      <div class="head">
+        <span style="float: right;">> cd ~/</span>
+
+        <form style="float: right;" id="form" role="search">
           <input type="search" id="query" name="q" placeholder="cd ~/" aria-label="Google Search" autofocus>
-           
-            <script>
-      const f = document.getElementById('form');
-      const q = document.getElementById('query');
-      const google = 'https://www.google.com/search?q='
 
-      function submitted(event) {
-        event.preventDefault();
-        const url = google + '+' + q.value;
-        const win = window.open(url, '_blank');
-        win.focus();
-      }
+          <script>
+            const f = document.getElementById('form');
+            const q = document.getElementById('query');
+            const google = 'https://www.google.com/search?q='
 
-      f.addEventListener('submit', submitted);
-      </script>
-          </div>
+            function submitted(event) {
+              event.preventDefault();
+              const url = google + '+' + q.value;
+              const win = window.open(url, '_blank');
+              win.focus();
+            }
+
+            f.addEventListener('submit', submitted);
+          </script>
+      </div>
 
       <div class="bookmarks">
         <div class="category">
