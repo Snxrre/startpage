@@ -112,7 +112,7 @@ a:hover {
   }
 }
 
-form:input {
+input[type="search"] {
   border: none;
   background: none;
   outline: none;
