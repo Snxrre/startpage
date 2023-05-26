@@ -114,5 +114,9 @@ a:hover {
 
 form:input {
   border: none;
+  background: none;
+  outline: none;
+  color: red;
+
 }
   
