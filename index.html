@@ -17,11 +17,16 @@
 
     <div class="right-container">
       <div class="head">
-        <form id="form">
-        <input type="search" id="query" name="q" placeholder="search...">
+        <form id="form" role="search">
+          <input type="search" id="query" name="q" placeholder="search..." aria-label="Google Search">
           <button>search</button>
-        <p>> cd ~/<span class="blinking">_</span></p>
+          <p>> cd ~/<span class="blinking">_</span></p>
       </div>
+      <script>
+        const f = document.getElementById(form);
+        const f = document.getElementById(query);
+
+      </script>
 
       <div class="bookmarks">
         <div class="category">
