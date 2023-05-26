@@ -111,3 +111,8 @@ a:hover {
     opacity: 1;
   }
 }
+
+form:input {
+  border: none;
+}
+  
