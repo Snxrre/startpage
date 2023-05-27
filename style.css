@@ -128,3 +128,9 @@ form:p {
 .inline {
   display: inline;
 }
+
+.head:span {
+  display: inline;
+  float: left;
+
+}
