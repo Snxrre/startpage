@@ -113,6 +113,7 @@ a:hover {
 }
 
 input[type="search"] {
+  float: right;
   border: none;
   background: none;
   outline: none;
