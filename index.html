@@ -17,28 +17,28 @@
 
     <div class="right-container">
       <div class="head">
-        <label for="query">cd ~/
-          <form id="form" role="search">
+        <form id="form" role="search">
+          <label for="query">cd ~/
             <input type="search" id="query" name="q" placeholder="cd ~/" aria-label="Google Search" autofocus>
-        </label>
-        <label>
-          Enter your name:
-          <input type="text" id="input-field">
-        </label>
-        <script>
-          const f = document.getElementById('form');
-          const q = document.getElementById('query');
-          const google = 'https://www.google.com/search?q='
+          </label>
+          <label>
+            Enter your name:
+            <input type="text" id="input-field">
+          </label>
+          <script>
+            const f = document.getElementById('form');
+            const q = document.getElementById('query');
+            const google = 'https://www.google.com/search?q='
 
-          function submitted(event) {
-            event.preventDefault();
-            const url = google + '+' + q.value;
-            const win = window.open(url, '_self');
-            win.focus();
-          }
+            function submitted(event) {
+              event.preventDefault();
+              const url = google + '+' + q.value;
+              const win = window.open(url, '_self');
+              win.focus();
+            }
 
-          f.addEventListener('submit', submitted);
-        </script>
+            f.addEventListener('submit', submitted);
+          </script>
       </div>
 
       <div class="bookmarks">
