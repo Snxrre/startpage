@@ -1,12 +1,13 @@
 :root {
-    --color-bg: #282828;
-    --color-fg: #EADBB2;
-    --color-link: #8F9191;
-    --color-link-visited: #668F8B;
-    --color-link-hover: #FA7921 ;
+  --color-bg: #282828;
+  --color-fg: #EADBB2;
+  --color-link: #8F9191;
+  --color-link-visited: #668F8B;
+  --color-link-hover: #FA7921;
 }
 
-html, body {
+html,
+body {
   background: var(--color-bg);
   color: var(--color-fg);
   font-family: "Fira Code";
@@ -120,7 +121,7 @@ input[type="search"] {
   color: red;
 
 }
- 
+
 form:p {
   display: inline;
 }
@@ -134,3 +135,5 @@ form:p {
   float: left;
 
 }
+
+.label {}
