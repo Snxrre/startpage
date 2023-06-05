@@ -119,6 +119,8 @@ input[type="search"] {
   border: none;
   background: none;
   outline: none;
+  caret-color: text;
+  color: var(--color-fg);
 }
 
 form:p {
