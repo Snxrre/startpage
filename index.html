@@ -16,27 +16,6 @@
     </div>
 
     <div class="right-container">
-      <div class="head">
-        <form id="form" role="search">
-          <label for="query">cd ~/
-            <input type="search" id="query" name="q" aria-label="Google Search" autofocus>
-          </label>
-          <script>
-            const f = document.getElementById('form');
-            const q = document.getElementById('query');
-            const google = 'https://www.google.com/search?q='
-
-            function submitted(event) {
-              event.preventDefault();
-              const url = google + '+' + q.value;
-              const win = window.open(url, '_self');
-              win.focus();
-            }
-
-            f.addEventListener('submit', submitted);
-          </script>
-      </div>
-
       <div class="bookmarks">
         <div class="category">
           <div class="links">
