@@ -1,7 +1,8 @@
 # Startpage
 
 
-' **This project is now archived and will be replaced by a newer version of the same project. I have decided to seperate the new Startpage, because it will be a complete recode and no longer be a fork of kencxs amazing startpage. The website will probably stay online as long as Github keeps it up.**
+**This project is now archived and will be replaced by a newer version of the same project. I have decided to seperate the new Startpage, because it will be a complete recode and no longer be a fork of kencxs amazing startpage. The website will probably stay online as long as Github keeps it up.**
+
 [Live Preview](https://snxrre.github.io/startpage/)
 
 My personal fork of kencx's startpage!
